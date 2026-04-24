@@ -3,18 +3,18 @@
 int main()
 {
 	int a,b,c;
-	printf("Enter first number");
+	printf("Enter first number: ");
 	scanf("%d",&a);
-	printf("Enter second number");
+	printf("Enter second number: ");
 	scanf("%d",&b);
-	printf("Enter third number");
+	printf("Enter third number: ");
 	scanf("%d",&c);
 
 	if(a>=b && a>=c) {
-		printf("%d is largest",a); }
+		printf("%d is largest\n",a); }
 	else if(b>=c) {
-		printf("%d is greatest",b); }
+		printf("%d is greatest\n",b); }
 	else {
-		printf("%d is greatest",c); };
+		printf("%d is greatest\n",c); };
 	return 0;
 }
