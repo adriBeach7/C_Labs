@@ -5,6 +5,7 @@ int main ()
 	float mediumNumber;
 	printf("Enter smallNo. value: \n");
 	scanf("%d",&smallNumber);
+	while (getchar() != '\n');
 	printf("Enter mediumNo. value: \n");
 	scanf("%f",&mediumNumber);
 	double largeNumber;
